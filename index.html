@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--fim google fontes-->
+     <!--icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <!--fim icons-->
+     
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Gift store</title>
+</head>
+<body>
+    <script>
+        window.SnipcartSettings = {
+          publicApiKey: "Njc3YjllMGYtNjFmYS00ZjNlLTlkYjktNzA3YTZjZmI4YjVlNjM4NDI5Mjk3OTg1NjQwMTE3",
+          loadStrategy: "on-user-interaction",
+        };
+      
+        (function(){var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var m,g;(g=(m=window.SnipcartSettings).loadCSS)!=null||(m.loadCSS=!0);var y=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,f=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(f.forEach(function(t){return document.addEventListener(t,o)}),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],n=document.querySelector("#snipcart"),i=document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,'"][src$="snipcart.js"]')),e=document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,'"][href$="snipcart.css"]'));n||(n=document.createElement("div"),n.id="snipcart",n.setAttribute("hidden","true"),document.body.appendChild(n)),h(n),i||(i=document.createElement("script"),i.src="".concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,"/themes/v").concat(window.SnipcartSettings.version,"/default/snipcart.js"),i.async=!0,t.appendChild(i)),!e&&window.SnipcartSettings.loadCSS&&(e=document.createElement("link"),e.rel="stylesheet",e.type="text/css",e.href="".concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,"/themes/v").concat(window.SnipcartSettings.version,"/default/snipcart.css"),t.prepend(e)),f.forEach(function(v){return document.removeEventListener(v,o)})}function h(t){!y||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+      </script>
+    <header>
+    <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <img src="imagens/imagem 2.png" alt="logo loja">
+                </a>
+<h1>Gift <span>store</span></h1>
+</div><!--logo-->
+
+
+<nav>
+    <ul>
+        <li><a href="index.html" class="active-link">Inicio</a></li>
+        <li><a id="linkProdutos" href="produtos.html">Produtos</a></li>
+        <li><div class="icon-cart" id="cart-icon"> Carrinho <i class="bi bi-cart4"></i></div>  </li>
+        <li><a href="signup.html">conta <i class="bi bi-person-circle"></i></a></li>
+    </ul>
+    <!-- Botão do Menu Hambúrguer -->
+<div class="menu">
+
+    <i class="bi bi-list"></i>
+</div>
+</div> <!--interface-->
+<div class="nav-menu">
+    <ul>
+        <li><a href="index.html" class="principal">Inicio</a></li>
+        <li><a id="linkProdutos2" href="produtos2.html" class="principal">Produtos</a></li>
+        <div id="menu-dropdown" style="display: none;">
+        <div class="all-link2">
+            <ul>
+                <li><a id="down-1" href="produtos2.html" class="first-link">Lembranças</a></li>
+                
+                <div id="links-1" style="display: none;" >
+                    <div class="links-down">
+                    <ul>
+                        <li><a href="#"><span>.</span>casamento</a></li>
+                        <li><a href="#"><span>.</span>Batizados</a></li>
+                        <li><a href="#"><span>.</span>comunhôes</a></li>
+                        <li><a href="#"><span>.</span>casamento</a></li>
+                    </ul>
+                </div>
+                </div><!--links-1-->
+
+                <li><a id="down-2" href="produtos2.html" class="first-link">Datas especiais</a></li>
+                
+                <div id="links-2" style="display: none;" >
+                    <div class="links-down">
+                    <ul>
+                        <li><a href="#"><span>.</span>Dia dos namorados</a></li>
+                        <li><a href="#"><span>.</span>Dia da mãe</a></li>
+                        <li><a href="#"><span>.</span>Dia do Pai</a></li>
+                        <li><a href="#"><span>.</span>Dia dos avôs</a></li>
+                    </ul>
+                </div>
+                </div><!--links-2-->
+
+                
+                <li><a id="down-3" href="produtos2.html" class="first-link">Outros</a></li>
+                
+                <div id="links-3" style="display: none;" >
+                    <div class="links-down">
+                    <ul>
+                        <li><a href="#"><span>.</span>decoração de casa</a></li>
+                        <li><a href="#"><span>.</span>mimos</a></li>
+                        <li><a href="#"><span>.</span>casamento</a></li>
+                        <li><a href="#"><span>.</span>casamento</a></li>
+                    </ul>
+                </div>
+                </div><!--links-3-->
+            </ul>
+        </div><!--all-link2-->
+    </div>
+        <li><div class="icon-cart" id="cart-icon2" class="principal"> Carrinho <i class="bi bi-cart4"></i></div>  </li>
+        <li><a href="login.html" class="principal">Conta <i class="bi bi-person-circle"></i></a></li>
+    </ul>
+</div>
+      
+</nav>
+
+<div id="menuHamburguer" style="display: none;">
+<div class="all-link">
+    <div class="link-top">
+        <h4>Lembranças</h4>
+        <ul>
+            <li><a href="#"><span>.</span>casamento</a></li>
+            <li><a href="#"><span>.</span>Batizados</a></li>
+            <li><a href="#"><span>.</span>comunhôes</a></li>
+            <li><a href="#"><span>.</span>casamento</a></li>
+        </ul>
+    </div>
+    <div class="link-top">
+        <h4>datas especiais</h4>
+        <ul>
+            <li><a href="#"><span>.</span>Dia dos namorados</a></li>
+            <li><a href="#"><span>.</span>Dia da mãe</a></li>
+            <li><a href="#"><span>.</span>Dia do Pai</a></li>
+            <li><a href="#"><span>.</span>Dia dos avôs</a></li>
+        </ul>
+    </div>
+    <div class="link-top">
+        <h4>Outros</h4>
+        <ul>
+            <li><a href="#"><span>.</span>decoração de casa</a></li>
+            <li><a href="#"><span>.</span>mimos</a></li>
+            <li><a href="#"><span>.</span>casamento</a></li>
+            <li><a href="#"><span>.</span>casamento</a></li>
+        </ul>
+    </div>
+</div>
+
+</div> 
+
+
+
+    <div class="Slider">
+
+    <div class="slides">
+        <!--radio bootons-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!-- fim radio bootons-->
+
+
+         <!--slides imagens-->
+         <div class="slide first"> 
+            <img src="imagens/slide 1.png" alt="imagem 1">
+         </div>
+         <div class="slide "> 
+            <img src="imagens/slide 2.png" alt="imagem 2">
+         </div>
+         <div class="slide "> 
+            <img src="imagens/slide 3.png" alt="imagem 3">
+         </div>
+       <!--fim imagens-->
+
+         <!--navegation auto-->
+         <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+         </div>
+         <!-- fim navegation auto-->
+
+   </div><!--slides-->
+
+   <div class="manual-nav">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+</div><!--manual-nav-->
+
+</div><!--Slider-->
+ </header>
+
+<section class="Produtos-destaque">
+    
+    <h2 class="topo-destaque"> Produtos em Destaque <i class="bi bi-star"></i></i></h2>
+  
+    <div class="shop-content">
+<!--produto 1-->
+        <div class="produto-layout">
+              <img src="imagens/produtos/fotografia madeira .png" alt="" class="imagem-produto">
+              <h2 class="titulo-produto"> Placa madeira com foto</h2>
+              <div class="preco-e-icone">
+                <span class="preco">12€</span>
+                <i class="bi bi-bag cart-icon"></i>
+            </div><!--preco-e-icone-->
+        </div><!--fim produto 1-->
+
+        <!--produto 2-->
+        <div class="produto-layout">
+            <img src="imagens/produtos/ceu estrelado .png" alt="" class="imagem-produto">
+            <h2 class="titulo-produto"> Placa com mapa estrela</h2>
+            <div class="preco-e-icone">
+                <span class="preco">14€</span>
+                <i class="bi bi-bag cart-icon"></i>
+            </div><!--preco-e-icone-->
+
+      </div><!--fim produto 2-->
+
+      <!--produto 3-->
+      <div class="produto-layout">
+        <img src="imagens/produtos/estrela.png" alt="" class="imagem-produto">
+        <h2 class="titulo-produto"> Estrelas agradecimento</h2>
+        <div class="preco-e-icone">
+            <span class="preco">2€</span>
+            <i class="bi bi-bag cart-icon"></i>
+        </div><!--preco-e-icone-->
+
+  </div><!--fim produto 3-->
+
+  <!--produto 4-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/lembrança casamento.png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto"> Lembrança casamento (letras em relevo)</h2>
+    <div class="preco-e-icone">
+    <span class="preco">15€</span>
+    <i class="bi bi-bag cart-icon"></i>
+</div><!--preco-e-icone-->
+
+</div><!--fim produto 4-->
+
+  <!--produto 5-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/letras com coração veremelho.png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto">Lestras com foto em coração(vermelho)</h2>
+     <div class="preco-e-icone">
+    <span class="preco">17€</span>
+    <i class="bi bi-bag cart-icon"></i>
+</div><!--preco-e-icone-->
+
+</div><!--fim produto 5-->
+
+  <!--produto 6-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/letras com coração.png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto"> Lestras com foto em coração(vermelho)</h2>
+    <div class="preco-e-icone">
+        <span class="preco">22€</span>
+        <i class="bi bi-bag cart-icon"></i>
+    </div><!--preco-e-icone-->
+
+</div><!--fim produto 6-->
+
+  <!--produto 7-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/policia.png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto">Placa policia com nome</h2>
+       <div class="preco-e-icone">
+    <span class="preco">52€</span>
+    <i class="bi bi-bag cart-icon"></i>
+</div><!--preco-e-icone-->
+
+</div><!--fim produto 7-->
+
+  <!--produto 8-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/porta-chaves coração .png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto"> porta chaves encaxe </h2>
+    <div class="preco-e-icone">
+        <span class="preco">42€</span>
+        <i class="bi bi-bag cart-icon"></i>
+    </div><!--preco-e-icone-->
+
+</div><!--fim produto 8-->
+
+  <!--produto 9-->
+  <div class="produto-layout">
+    <img src="imagens/produtos/porta-chaves coração vermelho.png" alt="" class="imagem-produto">
+    <h2 class="titulo-produto"> porta chaves encaxe (vermelho) </h2>
+    <div class="preco-e-icone">
+    <span class="preco">2.5€</span>
+    <i class="bi bi-bag cart-icon"></i>
+</div><!--preco-e-icone-->
+
+</div><!--fim produto 9-->
+
+    </div><!--shop-content-->
+
+
+</section><!--Produtos-destaque-->
+
+<div class="barra-cart">
+<div class="cart">
+    <h2 class="cart-titulo">O teu carrinho de compras <i class="bi bi-cart4"></i> </h2>
+    <div class="cart-content">
+  
+    </div><!--cart-content-->
+    <!--total-->
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">0€</div>
+ </div>  <!--total-->
+     <!--Buy Button-->
+     <button onclick="checkout()" type="button" class="btn-buy">Finalizar compra</button>
+     <i class="bi bi-x" id="close-cart"></i>                        
+</div><!--cart-->
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>loja</h4>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Politica de privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Ajuda</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">devoluçôes</a></li>
+                    <li><a href="#">seguir encomenda</a></li>
+                    <li><a href="#">Opções de pagamento</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Segue a nossa loja</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61554707521466"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="bi bi-envelope"></i></a>
+                    <a href="https://www.instagram.com/giftstore.pt/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="fundo">
+    <p>&copy; 2024 Gift Store</p>
+</div>
+<script src="js/script.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
